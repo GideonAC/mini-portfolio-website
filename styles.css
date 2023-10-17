@@ -1,0 +1,117 @@
+*{
+    /* box-sizing: border-box; */
+}
+
+header{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+html{
+    width: 100%;
+    width: 100%;
+}
+
+.bodyCotent{
+    padding-left: 100px;
+}
+
+
+h1{
+width: 390px;
+color: #33323D;
+font-family: Ibarra Real Nova;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 100% */
+letter-spacing: -0.446px;
+}
+
+.photo-wrapper {
+    background: #203A4C;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+    width: 200px;
+    height: 48px;
+}
+
+.smallie {
+    grid-column: 1 / 2;
+}  
+
+.about-me {
+    grid-column: 2 / 3;
+    color: #FFF;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+
+p{
+color: #33323D;
+font-family: Ibarra Real Nova;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 105% */
+letter-spacing: -0.357px;
+}
+
+.profile-pic-about{
+    display: flex;
+    margin-top: 150px;
+    /* padding-top: 951px;
+    padding-left: 842px;
+    padding-right: 260px;
+    padding-bottom: 511; */
+}
+
+.aboutMe{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 260px;
+    padding-bottom: 511;
+}
+
+svg{
+width: 104px;
+height: 24px;
+flex-shrink: 0;
+/* padding: 1px 165px 28px 1171px;  */
+}
+
+
+
+
+.footer-div{
+    width: 1440px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #33323D;
+}
+
+.twodiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home{
+    padding-left: 150px;
+}
+
+.footer-padding{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
